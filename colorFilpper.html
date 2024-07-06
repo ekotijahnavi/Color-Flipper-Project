@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link type="text/css" rel="stylesheet" href="colorFlipper.css">
+    <script src="colorFlipper.js"></script>
+</head>
+<body>
+    <h1>Color Flipper</h1>
+    <div id="nav">
+        <ul>
+            <li><button onclick="simple('s')" id="sim">Simple</button></li>
+            <li><button onclick="hex('h')" id="hex">Hex</button></li>
+        </ul>
+    </div>
+   <div id="box">
+        <div id="back">
+            <i>Background-color:<span id="color">coral</span></i>
+        </div>
+        <button id="button" onclick="change()">flip color</button>
+    </div>
+    
+</body>
+</html>
